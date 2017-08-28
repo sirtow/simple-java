@@ -17,7 +17,7 @@ public class AppTest {
     @Test
     public void sumTest(){
         int sum = calculator.sum(2, 2);
-        Assert.assertTrue("Sum is wrong",3==sum);
+        Assert.assertTrue("Sum is wrong",4==sum);
 
     }
 //    @Test
