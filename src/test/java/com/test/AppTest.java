@@ -20,9 +20,9 @@ public class AppTest {
         Assert.assertTrue("Sum is wrong",4==sum);
 
     }
-//    @Test
-//    public void subTest(){
-//        int sub = calculator.sub(5, 3);
-//        Assert.assertTrue("Sub is wrong",2==sub);
-//    }
+    @Test
+    public void subTest(){
+        int sub = calculator.sub(5, 3);
+        Assert.assertTrue("Sub is wrong",2==sub);
+    }
 }
